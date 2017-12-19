@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Diary14:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Diary14_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Diary14" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="junit4" module-name="Diary14" />
+          <element id="file-copy" path="$PROJECT_DIR$/WebContent/WEB-INF/lib/jstl.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WebContent/WEB-INF/lib/standard.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WebContent/WEB-INF/lib/mysql-connector-java-3.1.12-bin.jar" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="Diary14/web/Web" />
+    </root>
+  </artifact>
+</component>
